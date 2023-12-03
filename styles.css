@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 20px auto;
+    background-color: lightgray;
+}
+
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    height: 3rem;
+}
+
+#explore{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font-weight: bold;
+}
+
+#searchInput{
+    width: 70%;
+    border: none;
+    margin: 6px;
+    height: 2rem;
+}
+
+#searchResults {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#viewFavouritesBtn{
+    background-color: lightseagreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    border: none;
+    width: 20%;
+    margin: 6px;
+}
+
+.movie-card {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 15rem;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    border-radius: 2px;
+}
+
+.movie-poster {
+    width: 100%;
+    height: auto;
+}
+
+.favourite-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.movie-details {
+    width: 100%;
+    padding: 20px;
+}
+
+.movie-info{
+    width: 50%;
+    margin: 20px;
+    padding: 10px;
+    display: flex;
+}
+
+#movieDetails{
+    background-color: lightgray;
+    border: 2px solid gray;
+}
+
+#favourites{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.remove-btn{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
